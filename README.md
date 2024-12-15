@@ -1,4 +1,4 @@
-                                                                     *PHẦN  I.TỔNG QUAN*
+                                                                     PHẦN  I.TỔNG QUAN
 Supply Chain là một chuỗi các hoạt động liên quan đến việc sản xuất, vận chuyển, lưu trữ và phân phối hàng hóa từ nguồn cung cấp đến khách hàng cuối cùng. Supply Chain bao gồm các nhà cung cấp, nhà sản xuất, nhà phân phối, nhà bán lẻ và khách hàng. Mục tiêu của Supply Chain là tối ưu hóa quá trình cung ứng hàng hóa và dịch vụ đến khách hàng với chi phí thấp nhất và chất lượng cao nhất.
 Một Supply Chain hiệu quả là yếu tố quan trọng để tạo ra lợi thế cạnh tranh cho doanh nghiệp. Giúp doanh nghiệp giảm chi phí, tăng doanh thu, nâng cao chất lượng sản phẩm và dịch vụ. Đồng thời, cải thiện khả năng đáp ứng nhu cầu/ mong muốn của khách hàng và tăng sự hài lòng của khách hàng
 1.1.	Giới thiệu dataset
@@ -52,7 +52,8 @@ Procured_to_Order, Order_to_Ship, Ship_to_Delivery, Procured_to_Delivery.
 
 
 
-                                                    **PHẦN  II.	 PHÂN TÍCH DỮ LIỆU** 
+                                                    PHẦN  II.PHÂN TÍCH DỮ LIỆU
+						    
 2.1	Phân tích khám phá data
 ●	Thống kê mô tả
 ![image](https://github.com/user-attachments/assets/7c48133a-36eb-45f3-a7bf-ac6890673486)
@@ -178,7 +179,7 @@ Tổng quát:
 -	Ở tháng 7/2020 và 10/2020, chỉ có Whole là có thêm 1,2 khách hàng mới.
 => Cần đưa ra các hoạt động thu hút, nâng cao số lượng khách hàng đến mua hàng phù hợp với mỗi kênh bán hàng.
 
-                                                        **PHẦN  III.	TỔNG QUAN**
+                                                        PHẦN  III.TỔNG QUAN
  	
 Để giải quyết các vấn đề đã đưa ra, với điều kiện thông tin hạn hẹp, nhóm xin đưa ra một số đề xuất:
 1.	Để nâng cao chất lượng hàng hoá đáp ứng nhu cầu thị trường => cần nghiên cứu lại chất lượng sản phẩm và nhu cầu của thị trường đối với các sản phẩm bán kém 44,34,18,42,30; đồng thời đẩy mạnh marketing và sales đối với các sản phẩm bán tốt 23,37,8,4,40.
