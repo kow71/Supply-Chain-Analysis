@@ -1,4 +1,4 @@
-                                                                     **PHẦN  I.	TỔNG QUAN**
+                                                                     **PHẦN  I.TỔNG QUAN**
 Supply Chain là một chuỗi các hoạt động liên quan đến việc sản xuất, vận chuyển, lưu trữ và phân phối hàng hóa từ nguồn cung cấp đến khách hàng cuối cùng. Supply Chain bao gồm các nhà cung cấp, nhà sản xuất, nhà phân phối, nhà bán lẻ và khách hàng. Mục tiêu của Supply Chain là tối ưu hóa quá trình cung ứng hàng hóa và dịch vụ đến khách hàng với chi phí thấp nhất và chất lượng cao nhất.
 Một Supply Chain hiệu quả là yếu tố quan trọng để tạo ra lợi thế cạnh tranh cho doanh nghiệp. Giúp doanh nghiệp giảm chi phí, tăng doanh thu, nâng cao chất lượng sản phẩm và dịch vụ. Đồng thời, cải thiện khả năng đáp ứng nhu cầu/ mong muốn của khách hàng và tăng sự hài lòng của khách hàng
 1.1.	Giới thiệu dataset
@@ -24,8 +24,6 @@ Dataset được chọn là 1 bảng chứa thông tin bán hàng của 1 công 
 1.1.2	Quy trình kinh doanh
 
 ![image](https://github.com/user-attachments/assets/1437541f-910f-4b94-8ab0-420c8144f553)
-
-
 
 1.1.3	Xác định vấn đề và xác định mục tiêu phân tích 
 ●	Xác định vấn đề:
@@ -179,6 +177,7 @@ Tổng quát:
 -	Ở tháng 5/2020, có hai kênh Wholesale và Online có lần lượt số lượng khách là 2, 1 người.
 -	Ở tháng 7/2020 và 10/2020, chỉ có Whole là có thêm 1,2 khách hàng mới.
 => Cần đưa ra các hoạt động thu hút, nâng cao số lượng khách hàng đến mua hàng phù hợp với mỗi kênh bán hàng.
+
                                                         **PHẦN  III.	TỔNG QUAN**
  	
 Để giải quyết các vấn đề đã đưa ra, với điều kiện thông tin hạn hẹp, nhóm xin đưa ra một số đề xuất:
