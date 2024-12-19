@@ -145,36 +145,36 @@ c)	Mối quan hệ với nhà sản xuất:
 ●	Wholesale: Người bán buôn thường mua hàng trực tiếp từ nhà sản xuất hoặc nhà cung cấp và có quan hệ trực tiếp với họ. Họ có thể đàm phán giá cả, điều khoản và điều kiện mua hàng trực tiếp với nhà sản xuất.
 ●	Distributor: Người phân phối cũng mua hàng từ nhà sản xuất hoặc nhà cung cấp, nhưng thường có mối quan hệ đối tác lâu dài và tương tác chặt chẽ hơn với nhà sản xuất. Họ thường được nhà sản xuất ủy quyền độc quyền phân phối sản phẩm trong một khu vực cụ thể và nhận được hỗ trợ từ nhà sản xuất về marketing, quảng cáo và hỗ trợ kỹ thuật.
 Tóm lại, wholesale là hoạt động bán buôn tập trung vào việc mua hàng hóa với số lượng lớn và bán lại cho các khách hàng thương mại, trong khi distributor là người phân phối hàng hóa từ nhà sản xuất đến các khách hàng cuối cùng, thường là cửa hàng bán lẻ hoặc người tiêu dùng, với một mối quan hệ đối tác lâu dài với nhà sản xuất.
-2.6	Phân tích RFM (Giải quyết vấn đề số 4)
+## 2.6	Phân tích RFM (Giải quyết vấn đề số 4)
 Tổng quát:
 ![image](https://github.com/user-attachments/assets/5f3e3d29-2c7c-4f4d-9917-7f19b42779a5)
 
-●	Champion: nhóm KH tốt nhất nhưng chỉ chiếm 20% trong tổng số KH, doanh thu đóng góp 21,64%. Họ đã mua gần đây, đặt hàng thường xuyên và chi tiêu nhiều nhất. 
-=> Cần chăm sóc nhóm KH này để tiếp tục duy trì ở phân khúc hiện tại, dự báo số lượng sản phẩm nhóm KH này hay tiêu thụ để stock kho, hàng hoá phải sẵn sàng để đáp ứng nhu cầu KH. Khi có sản phẩm mới, phải giới thiệu họ trước tiên, họ có thể là những người giới thiệu sản phẩm rất tốt.
+●	Champion: nhóm KH tốt nhất nhưng chỉ chiếm 20% trong tổng số KH, doanh thu đóng góp 21,64%. Họ đã mua gần đây, đặt hàng thường xuyên và chi tiêu nhiều nhất.   
+=> Cần chăm sóc nhóm KH này để tiếp tục duy trì ở phân khúc hiện tại, dự báo số lượng sản phẩm nhóm KH này hay tiêu thụ để stock kho, hàng hoá phải sẵn sàng để đáp ứng nhu cầu KH. Khi có sản phẩm mới, phải giới thiệu họ trước tiên, họ có thể là những người giới thiệu sản phẩm rất tốt.  
 ●	Loyal: nhóm KH tốt thứ 2 nhưng số lượng rất ít, chỉ có 2 người (4%), doanh thu đóng góp 3,72%.
-=>Họ đặt hàng thường xuyên và có tương tác với các chương trình khuyến mãi. Đưa ra những chương trình khuyến mãi phù hợp với họ để nâng cấp nhóm KH này lên champion.
-●	Potential Loyalist: nhóm KH tốt thứ 3 nhưng chỉ có 1 người (2%), doanh thu đóng góp 2,23%. 
-=> Họ đã mua hàng gần đây và chi tiêu tốt => tương tự nhóm Loyal, đưa ra những chương trình khuyến mãi đã được cá nhân hoá cho phù hợp với họ để nâng cấp nhóm KH này lên loyal hoặc champion.
+=>Họ đặt hàng thường xuyên và có tương tác với các chương trình khuyến mãi. Đưa ra những chương trình khuyến mãi phù hợp với họ để nâng cấp nhóm KH này lên champion.  
+●	Potential Loyalist: nhóm KH tốt thứ 3 nhưng chỉ có 1 người (2%), doanh thu đóng góp 2,23%.  
+=> Họ đã mua hàng gần đây và chi tiêu tốt => tương tự nhóm Loyal, đưa ra những chương trình khuyến mãi đã được cá nhân hoá cho phù hợp với họ để nâng cấp nhóm KH này lên loyal hoặc champion.  
 ●	Promising: Đây là nhóm chiếm tỷ trọng nhiều nhất trong tổng số lượng KH (40%) và cả doanh thu (39,4%). Họ từng là khách hàng trung thành, chi tiêu thường xuyên và khá nhiều tiền, nhưng lần mua cuối cùng đã cách đây hơi xa. 
-=> cung cấp phiếu giảm giá, đưa ra chương trình khuyến mãi đã được cá nhân hoá để giữ tương tác với họ. Dự trù sản phẩm stock kho cho nhóm KH này.
+=> cung cấp phiếu giảm giá, đưa ra chương trình khuyến mãi đã được cá nhân hoá để giữ tương tác với họ. Dự trù sản phẩm stock kho cho nhóm KH này.  
 ●	Needs attention: nhóm này chiếm 10% tổng số KH, doanh thu đóng góp 10,19%, cao thứ 3 sau Promising và Champion.
-=> Khách hàng cốt lõi nhưng có lần mua gần đây nhất hơi xa => đề xuất khuyến mãi có thời hạn để đẩy sales nhóm này đồng thời cũng phải dự báo số lượng hàng hoá stock kho phù hợp.
-●	About to sleep: chiếm 8% tổng số KH, doanh thu đóng góp 6,92%. Họ là những khách hàng phổ biến, mua hàng cách đây không lâu.
-=> Tương tự nhóm Need Attention, đưa ra chương trình khuyến mãi có thời hạn phù hợp để push sales.
-●	Can’t lose them: nhóm này chiếm 8% số KH, doanh thu đóng góp 7,9%. Họ đã từng thực hiện các đơn đặt hàng lớn nhất và thường xuyên nhưng đã lâu không trở lại. 
-=> Bộ phận sales/ chăm sóc KH cần liên hệ tìm hiểu nguyên nhân để ra chương trình marketing cho phù hợp.
-●	Lost Customer: nhóm này cũng chiếm 8% tổng số lượng KH, doanh thu đóng góp 7,99%. Họ đã thực hiện lần mua hàng gần đây nhất cách đây khá lâu và hoàn toàn không tương tác trong 4 tuần qua. 
-=> Tương tự nhóm trên, bộ phận sales/chăm sóc KH cần liên hệ tìm hiểu nguyên nhân để ra chương trình marketing cho phù hợp.
-2.7	Phân tích Cohort (Giải quyết vấn đề số 4)
-●	Dựa vào bảng Cohort_StoreID, số lượng khách hàng mới ở các tháng của các Store là rất ít chỉ tầm 2 đến 3 khách hàng trên tổng số khách hàng là 50 người, nhưng số lượng cửa hàng lại có tổng là 367 cửa hàng.
-=> Có thể một khách hàng đi đến nhiều cửa hàng, hoặc sẽ có nhiều cửa hàng không có khách hàng. Vì vậy, nhóm quyết định không phân tích sau về vấn đề này.
-●	Dựa vào bảng Cohort_SalesChanel, các tháng 1,2,3,4,5,7,10 có khách hàng mới đến mua hàng ở các kênh bán hàng, nhưng vào tháng 6,8,9 không có khách hàng mới:
--	Ở tháng 1/2020, bốn kênh đều có khách hàng mới, kênh In-Store có số lượng khách hàng mới cao nhất 42 người và 42 người này có quay lại mua hàng ở các tháng về sau. Ở kênh Wholesale có số lượng khách hàng mới thấp nhất 26 người.
--	Ở tháng 2/2020, bốn kênh đều có khách hàng mới, tuy nhiên tháng này số lượng khách hàng bị giảm dần như: Ở kênh Distributor có 17 khách cao nhất nhưng thấp hơn tháng trước 10 người. Kênh In-Store giảm nhanh  từ 42 người xuống còn 7 người.
--	Ở tháng 3/2020, bốn kênh đều có khách hàng mới, tuy nhiên số lượng khách hàng mới ở các kênh giảm mạnh.
--	Ở tháng 4/2020, chỉ có Wholesale có thêm được 2 khách hàng mới.
--	Ở tháng 5/2020, có hai kênh Wholesale và Online có lần lượt số lượng khách là 2, 1 người.
--	Ở tháng 7/2020 và 10/2020, chỉ có Whole là có thêm 1,2 khách hàng mới.
+=> Khách hàng cốt lõi nhưng có lần mua gần đây nhất hơi xa => đề xuất khuyến mãi có thời hạn để đẩy sales nhóm này đồng thời cũng phải dự báo số lượng hàng hoá stock kho phù hợp.  
+●	About to sleep: chiếm 8% tổng số KH, doanh thu đóng góp 6,92%. Họ là những khách hàng phổ biến, mua hàng cách đây không lâu.  
+=> Tương tự nhóm Need Attention, đưa ra chương trình khuyến mãi có thời hạn phù hợp để push sales.  
+●	Can’t lose them: nhóm này chiếm 8% số KH, doanh thu đóng góp 7,9%. Họ đã từng thực hiện các đơn đặt hàng lớn nhất và thường xuyên nhưng đã lâu không trở lại.   
+=> Bộ phận sales/ chăm sóc KH cần liên hệ tìm hiểu nguyên nhân để ra chương trình marketing cho phù hợp.  
+●	Lost Customer: nhóm này cũng chiếm 8% tổng số lượng KH, doanh thu đóng góp 7,99%. Họ đã thực hiện lần mua hàng gần đây nhất cách đây khá lâu và hoàn toàn không tương tác trong 4 tuần qua.   
+=> Tương tự nhóm trên, bộ phận sales/chăm sóc KH cần liên hệ tìm hiểu nguyên nhân để ra chương trình marketing cho phù hợp.  
+## 2.7	Phân tích Cohort (Giải quyết vấn đề số 4)   
+●	Dựa vào bảng Cohort_StoreID, số lượng khách hàng mới ở các tháng của các Store là rất ít chỉ tầm 2 đến 3 khách hàng trên tổng số khách hàng là 50 người, nhưng số lượng cửa hàng lại có tổng là 367 cửa hàng.  
+=> Có thể một khách hàng đi đến nhiều cửa hàng, hoặc sẽ có nhiều cửa hàng không có khách hàng. Vì vậy, nhóm quyết định không phân tích sau về vấn đề này.  
+●	Dựa vào bảng Cohort_SalesChanel, các tháng 1,2,3,4,5,7,10 có khách hàng mới đến mua hàng ở các kênh bán hàng, nhưng vào tháng 6,8,9 không có khách hàng mới:  
+-	Ở tháng 1/2020, bốn kênh đều có khách hàng mới, kênh In-Store có số lượng khách hàng mới cao nhất 42 người và 42 người này có quay lại mua hàng ở các tháng về sau. Ở kênh Wholesale có số lượng khách hàng mới thấp nhất 26 người.  
+-	Ở tháng 2/2020, bốn kênh đều có khách hàng mới, tuy nhiên tháng này số lượng khách hàng bị giảm dần như: Ở kênh Distributor có 17 khách cao nhất nhưng thấp hơn tháng trước 10 người. Kênh In-Store giảm nhanh  từ 42 người xuống còn 7 người.  
+-	Ở tháng 3/2020, bốn kênh đều có khách hàng mới, tuy nhiên số lượng khách hàng mới ở các kênh giảm mạnh.  
+-	Ở tháng 4/2020, chỉ có Wholesale có thêm được 2 khách hàng mới.  
+-	Ở tháng 5/2020, có hai kênh Wholesale và Online có lần lượt số lượng khách là 2, 1 người.  
+-	Ở tháng 7/2020 và 10/2020, chỉ có Whole là có thêm 1,2 khách hàng mới.  
 => Cần đưa ra các hoạt động thu hút, nâng cao số lượng khách hàng đến mua hàng phù hợp với mỗi kênh bán hàng.
 
 # II. Phần Tổng Quan
