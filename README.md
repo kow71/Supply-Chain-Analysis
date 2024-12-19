@@ -124,9 +124,7 @@ Procured to Order có tác động mạnh đến Procured to Delivery 0.97, ngh�
 ●	Thời gian từ lúc KH đặt hàng cho tới lúc nhận được hàng là = TG chuẩn bị hàng (TB 15 ngày) + TG vận chuyển (6 ngày);
 => Để tăng năng lực cạnh tranh của cty và tăng sự hài lòng của KH thì cần phải đặt mục tiêu rút ngắn thời gian chuẩn bị xuống còn 13 ngày bằng cách bố trí thêm nhân sự; rút ngắn quy trình/thủ tục xuất kho đồng thời rút ngắn thời gian vận chuyển bằng cách hợp tác với đơn vị vận chuyển chuyên nghiệp. Ngoài ra có thể đào sâu tìm ra nguyên nhân với data phân loại sản phẩm, vị trí địa lý, đối tác vận chuyển và quy trình sản xuất, kho vận để đưa ra giải pháp sát vấn đề lõi nhất.
 ## 2.5	Phân tích tình hình kinh doanh của các Sales channel và Stores (giải quyết vấn đề số 3)
-	![image](https://github.com/user-attachments/assets/23a45253-e02f-4b2a-af27-db6b74441108)
   ![image](https://github.com/user-attachments/assets/d1ad4cee-2fde-40a2-a2ad-4f1377a69900)
-
 
 ●	Các kênh bán lẻ như In-store hoặc online mang về doanh thu cao nhất. Distributor và Wholesale tuy bán sỉ số lượng lớn nhưng chưa hiệu quả lắm, cần đẩy mạnh sales ở 2 kênh này;
 ●	5 teams sales hiệu quả nhất là 12,13,18 (kênh online), 26 (kênh wholesale) và 8 (kênh in-store);
