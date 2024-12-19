@@ -1,4 +1,4 @@
-#PHẦN I. TỔNG QUAN
+                                                                          PHẦN I. TỔNG QUAN
 Supply Chain là một chuỗi các hoạt động liên quan đến việc sản xuất, vận chuyển, lưu trữ và phân phối hàng hóa từ nguồn cung cấp đến khách hàng cuối cùng. Supply Chain bao gồm các nhà cung cấp, nhà sản xuất, nhà phân phối, nhà bán lẻ và khách hàng. Mục tiêu của Supply Chain là tối ưu hóa quá trình cung ứng hàng hóa và dịch vụ đến khách hàng với chi phí thấp nhất và chất lượng cao nhất.
 Một Supply Chain hiệu quả là yếu tố quan trọng để tạo ra lợi thế cạnh tranh cho doanh nghiệp. Giúp doanh nghiệp giảm chi phí, tăng doanh thu, nâng cao chất lượng sản phẩm và dịch vụ. Đồng thời, cải thiện khả năng đáp ứng nhu cầu/ mong muốn của khách hàng và tăng sự hài lòng của khách hàng
 1.1.	Giới thiệu dataset
