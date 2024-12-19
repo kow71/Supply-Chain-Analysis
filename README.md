@@ -1,8 +1,8 @@
-                                                       PHẦN I. TỔNG QUAN
-Supply Chain là một chuỗi các hoạt động liên quan đến việc sản xuất, vận chuyển, lưu trữ và phân phối hàng hóa từ nguồn cung cấp đến khách hàng cuối cùng. Supply Chain bao gồm các nhà cung cấp, nhà sản xuất, nhà phân phối, nhà bán lẻ và khách hàng. Mục tiêu của Supply Chain là tối ưu hóa quá trình cung ứng hàng hóa và dịch vụ đến khách hàng với chi phí thấp nhất và chất lượng cao nhất.
-Một Supply Chain hiệu quả là yếu tố quan trọng để tạo ra lợi thế cạnh tranh cho doanh nghiệp. Giúp doanh nghiệp giảm chi phí, tăng doanh thu, nâng cao chất lượng sản phẩm và dịch vụ. Đồng thời, cải thiện khả năng đáp ứng nhu cầu/ mong muốn của khách hàng và tăng sự hài lòng của khách hàng
-1.1.	Giới thiệu dataset
-1.1.1	Data dictionary
+# I.TỔNG QUAN
+-  Supply Chain là một chuỗi các hoạt động liên quan đến việc sản xuất, vận chuyển, lưu trữ và phân phối hàng hóa từ nguồn cung cấp đến khách hàng cuối cùng. Supply Chain bao gồm các nhà cung cấp, nhà sản xuất, nhà phân phối, nhà bán lẻ và khách hàng. Mục tiêu của Supply Chain là tối ưu hóa quá trình cung ứng hàng hóa và dịch vụ đến khách hàng với chi phí thấp nhất và chất lượng cao nhất.  
+- Một Supply Chain hiệu quả là yếu tố quan trọng để tạo ra lợi thế cạnh tranh cho doanh nghiệp. Giúp doanh nghiệp giảm chi phí, tăng doanh thu, nâng cao chất lượng sản phẩm và dịch vụ. Đồng thời, cải thiện khả năng đáp ứng nhu cầu/ mong muốn của khách hàng và tăng sự hài lòng của khách hàng
+## 1.1.	Giới thiệu dataset
+### 1.1.1	Data dictionary
 Dataset được chọn là 1 bảng chứa thông tin bán hàng của 1 công ty thương mại tại Mỹ, gồm 16 cột thể hiện quá trình từ khâu đặt hàng, nhập kho, xuất bán và kết thúc khi KH nhận được hàng, cùng với các thông tin về giá cả, team sales, kho bãi và khách hàng.
 -	Order Number: Mã đơn hàng;
 -	Sales Channel: Kênh bán hàng;
@@ -21,11 +21,11 @@ Dataset được chọn là 1 bảng chứa thông tin bán hàng của 1 công 
 -	Unit Cost: Chi phí mỗi sản phẩm;
 -	Unit Price: Giá mỗi sản phẩm.
 
-1.1.2	Quy trình kinh doanh
+### 1.1.2	Quy trình kinh doanh
 
 ![image](https://github.com/user-attachments/assets/1437541f-910f-4b94-8ab0-420c8144f553)
 
-1.1.3	Xác định vấn đề và xác định mục tiêu phân tích 
+### 1.1.3	Xác định vấn đề và xác định mục tiêu phân tích 
 ●	Xác định vấn đề:
 1)	Yêu cầu thời gian vận chuyển nhanh hơn và đảm bảo chất lượng sản phẩm. Nguyên nhân là do sự thay đổi nhanh chóng của xu hướng các nền kinh tế hiện nay;
 2)	Chi phí vận chuyển luôn ở mức cao, chiếm một tỷ trọng lớn trong giá thành sản phẩm. Nguyên nhân là do để đảm bảo tuân thủ về mặt chất lượng và thời gian nhanh chóng đồng nghĩa với việc phát sinh chi phí lớn;
@@ -34,12 +34,12 @@ Dataset được chọn là 1 bảng chứa thông tin bán hàng của 1 công 
 ●	Xác định mục tiêu phân tích
 ![image](https://github.com/user-attachments/assets/ef35ff75-3764-4ef0-be28-5295e14f21cc)
 
-1.2.	Tiền xử lý dữ liệu
-1.2.1.	Công cụ xử lý data
+## 1.2.	Tiền xử lý dữ liệu
+### 1.2.1.	Công cụ xử lý data
 ![image](https://github.com/user-attachments/assets/50d7d743-9b22-4c8f-8d12-f2335cca984d)
 ![image](https://github.com/user-attachments/assets/25d37c55-f0bd-45bd-a209-0c8cd2874a93)
 ![image](https://github.com/user-attachments/assets/7c1bc6c8-18cd-4dba-bfa8-f0794d925e36)
-1.2.2.	Clean Data
+### 1.2.2.	Clean Data
 -	Cột CurrencyCode chỉ có duy nhất 1 giá trị “USD” nên không cần thiết;
 -	Thay đổi định dạng datetime cho các cột: Procured Date, Order Date, Ship Date, Delivery Date;
 -	Định dạng lại cột Unit Cost và Unit Price. Thêm cột Revenue, Profit, Procured_to_Order, Order_to_Ship, Ship_to_Delivery, Procured_to_Delivery.
@@ -54,7 +54,7 @@ Procured_to_Order, Order_to_Ship, Ship_to_Delivery, Procured_to_Delivery.
 
                                                     PHẦN  II.PHÂN TÍCH DỮ LIỆU
 						    
-2.1	Phân tích khám phá data
+## 2.1	Phân tích khám phá data
 ●	Thống kê mô tả
 ![image](https://github.com/user-attachments/assets/7c48133a-36eb-45f3-a7bf-ac6890673486)
 
@@ -88,7 +88,7 @@ Nhận xét:
 -	Revenue bị tác động tb bởi order quantity 0.52, nhưng lại bị tác động mạnh bởi Unit Cost 0.71 và Unit Price 0.75. Thêm vào đó,  Revenue cũng có tác động mạnh đến profit 0.79;
 Procured to Order có tác động mạnh đến Procured to Delivery 0.97, nghĩa là nếu mốc thời gian nhập hàng của công ty đến thời gian chuẩn bị đơn hàng cho khách hàng càng chậm trễ sẽ dẫn đến mốc thời gian nhập hàng đến tay người tiêu dùng cũng sẽ bị chậm theo và ngược lại.
 
-2.2	Phân tích tổng quan tình hình kinh doanh của công ty
+## 2.2	Phân tích tổng quan tình hình kinh doanh của công ty
 ![image](https://github.com/user-attachments/assets/69078f23-1448-4515-9a20-a7a80ddabf37)
 
 ●	Tổng doanh thu đạt $73m, tổng lợi nhuận mang về $21,2m, ROI ( lợi nhuận/chi phí) khá cao 40,95% (điều này có nghĩa là cứ $100 chi phí bỏ ra sẽ mang về lợi nhuận là 40,95$).
@@ -101,7 +101,7 @@ Procured to Order có tác động mạnh đến Procured to Delivery 0.97, ngh�
 ●	Từ quý II-2018 đến 02/02/2021 công ty bán được 36,162 sản phẩm, trung bình 4,5 sản phẩm/đơn hàng.
 ●	Nhìn vào biểu đồ ta có thể thấy công ty bắt đầu hoạt động từ quý 2/2018. Số đơn hàng và doanh thu tăng mạnh ở quý 3/2018, có hơi giảm ở quý 1/2019 sau đó tăng và ổn định lại, dao động trong khoảng 750-790 đơn hàng/tháng.
 
-2.3	Phân tích về sản phẩm (giải quyết vấn đề 1)
+## 2.3	Phân tích về sản phẩm (giải quyết vấn đề 1)
 ![image](https://github.com/user-attachments/assets/8f02e53f-6493-4724-991a-e594650bc67d)
 
 ●	Top 5 sản phẩm bán nhiều nhất theo thứ tự là 23,37,8,4,40 tuy nhiên doanh thu thì theo thứ tự 23,40,37,4,8 và lợi nhuận thì theo thứ tự 23,8,37,40,4 => Sản phẩm 23 bán chạy nhất, doanh thu và lợi nhuận đều tốt;
@@ -111,7 +111,7 @@ Procured to Order có tác động mạnh đến Procured to Delivery 0.97, ngh�
 ●	Sản phẩm 4: có số lượng bán đứng thứ 4 (878), doanh thu đứng thứ 6 ($1,785,844), lợi nhuận đứng thứ 5 ($500,575), tương đối ổn;
 ●	Top 5 sản phẩm bán ít nhất theo thứ tự là 44,34,18,42,30 => cần nghiên cứu lại chất lượng sản phẩm và nhu cầu của thị trường đối với các mặt hàng này.
 
-2.4	Phân tích thời gian vận hành (giải quyết vấn đề 2 & 4)
+## 2.4	Phân tích thời gian vận hành (giải quyết vấn đề 2 & 4)
 ![image](https://github.com/user-attachments/assets/e63f0322-630b-432b-bd64-a32d145bcfd4)
 
 ●	Thời gian vận hành trung bình từ 2018 -> 2019 có cải thiện, tuy nhiên giai đoạn 2019-2021 lại tăng => có thể giải thích vấn đề này do ảnh hưởng của dịch Covid-19 khiến việc vận chuyển, lưu thông hàng hoá gặp khó khăn;
@@ -123,7 +123,7 @@ Procured to Order có tác động mạnh đến Procured to Delivery 0.97, ngh�
 ●	Trong tổng thời gian vận hành thì khâu lưu kho chiếm đến 84,1% -> nếu tối ưu thời gian vận hành có thể tối ưu thời gian lưu kho trước;
 ●	Thời gian từ lúc KH đặt hàng cho tới lúc nhận được hàng là = TG chuẩn bị hàng (TB 15 ngày) + TG vận chuyển (6 ngày);
 => Để tăng năng lực cạnh tranh của cty và tăng sự hài lòng của KH thì cần phải đặt mục tiêu rút ngắn thời gian chuẩn bị xuống còn 13 ngày bằng cách bố trí thêm nhân sự; rút ngắn quy trình/thủ tục xuất kho đồng thời rút ngắn thời gian vận chuyển bằng cách hợp tác với đơn vị vận chuyển chuyên nghiệp. Ngoài ra có thể đào sâu tìm ra nguyên nhân với data phân loại sản phẩm, vị trí địa lý, đối tác vận chuyển và quy trình sản xuất, kho vận để đưa ra giải pháp sát vấn đề lõi nhất.
-2.5	Phân tích tình hình kinh doanh của các Sales channel và Stores (giải quyết vấn đề số 3)
+## 2.5	Phân tích tình hình kinh doanh của các Sales channel và Stores (giải quyết vấn đề số 3)
 	![image](https://github.com/user-attachments/assets/23a45253-e02f-4b2a-af27-db6b74441108)
   ![image](https://github.com/user-attachments/assets/d1ad4cee-2fde-40a2-a2ad-4f1377a69900)
 
@@ -138,15 +138,13 @@ a)	Nguyên tắc phân phối
 ●	Wholesale (bán buôn): Hoạt động bán buôn tập trung vào việc bán hàng hóa cho các bên mua hàng lớn, như các công ty, nhà bán lẻ hoặc nhà sản xuất khác. Người bán buôn thường mua hàng hóa từ nhà sản xuất hoặc nhà cung cấp với số lượng lớn và giá thấp, sau đó bán lại với giá cao hơn cho các khách hàng.
 ●	Distributor (người phân phối): Người phân phối thường là bước trung gian giữa nhà sản xuất và người tiêu dùng cuối cùng. Họ mua hàng từ nhà sản xuất hoặc nhà cung cấp và phân phối chúng đến các khách hàng cuối cùng, như cửa hàng bán lẻ hoặc người tiêu dùng. Người phân phối thường không chỉ bán hàng hóa, mà còn cung cấp các dịch vụ bổ sung như lưu trữ, vận chuyển và quảng cáo.
 
-
-
 b)	Quy mô kinh doanh:
 ●	Wholesale: Các hoạt động bán buôn thường tập trung vào việc giao dịch với số lượng lớn hàng hóa. Người bán buôn thường mua hàng hóa trong số lượng lớn và bán lại cho các khách hàng thương mại khác trong các đơn hàng stcok lớn.
 ●	Distributor: Người phân phối có thể hoạt động ở quy mô nhỏ hơn so với bán buôn. Họ thường tập trung vào việc phân phối hàng hóa từ nhà sản xuất đến các điểm bán lẻ hoặc người tiêu dùng ở quy mô nhỏ hơn.
 c)	Mối quan hệ với nhà sản xuất:
 ●	Wholesale: Người bán buôn thường mua hàng trực tiếp từ nhà sản xuất hoặc nhà cung cấp và có quan hệ trực tiếp với họ. Họ có thể đàm phán giá cả, điều khoản và điều kiện mua hàng trực tiếp với nhà sản xuất.
 ●	Distributor: Người phân phối cũng mua hàng từ nhà sản xuất hoặc nhà cung cấp, nhưng thường có mối quan hệ đối tác lâu dài và tương tác chặt chẽ hơn với nhà sản xuất. Họ thường được nhà sản xuất ủy quyền độc quyền phân phối sản phẩm trong một khu vực cụ thể và nhận được hỗ trợ từ nhà sản xuất về marketing, quảng cáo và hỗ trợ kỹ thuật.
-Tóm lại, wholesale là hoạt động bán buôn tập trung vào việc mua hàng hóa với số lượng lớn và bán lại cho các khách hàng thương mại, trong khi distributor là người phân phối hàng hóa từ nhà sản xuất đến các khách hàng cuối cùng, thường là cửa hàng bán lẻ hoặc người tiêu dùng, với một mối quan hệ đối tác lâu dài với nhà sản xuất).
+Tóm lại, wholesale là hoạt động bán buôn tập trung vào việc mua hàng hóa với số lượng lớn và bán lại cho các khách hàng thương mại, trong khi distributor là người phân phối hàng hóa từ nhà sản xuất đến các khách hàng cuối cùng, thường là cửa hàng bán lẻ hoặc người tiêu dùng, với một mối quan hệ đối tác lâu dài với nhà sản xuất.
 2.6	Phân tích RFM (Giải quyết vấn đề số 4)
 Tổng quát:
 ![image](https://github.com/user-attachments/assets/5f3e3d29-2c7c-4f4d-9917-7f19b42779a5)
@@ -179,12 +177,16 @@ Tổng quát:
 -	Ở tháng 7/2020 và 10/2020, chỉ có Whole là có thêm 1,2 khách hàng mới.
 => Cần đưa ra các hoạt động thu hút, nâng cao số lượng khách hàng đến mua hàng phù hợp với mỗi kênh bán hàng.
 
-                                                        PHẦN  III.TỔNG QUAN
+# II. Phần Tổng Quan
  	
 Để giải quyết các vấn đề đã đưa ra, với điều kiện thông tin hạn hẹp, nhóm xin đưa ra một số đề xuất:
-1.	Để nâng cao chất lượng hàng hoá đáp ứng nhu cầu thị trường => cần nghiên cứu lại chất lượng sản phẩm và nhu cầu của thị trường đối với các sản phẩm bán kém 44,34,18,42,30; đồng thời đẩy mạnh marketing và sales đối với các sản phẩm bán tốt 23,37,8,4,40.
-2.	Để rút ngắn thời gian từ lúc đặt hàng đến lúc nhận hàng nhằm nâng cao năng lực cạnh tranh của công ty và tăng sự hài lòng của KH => đặt mục tiêu rút ngắn thời gian chuẩn bị hàng hiện tại là 15 ngày xuống còn 13 ngày bằng cách bố trí thêm nhân sự; rút ngắn quy trình/thủ tục xuất kho đồng thời rút ngắn thời gian vận chuyển bằng cách hợp tác với đơn vị vận chuyển chuyên nghiệp. Đặc biệt là kênh bán hàng online có thời gian chuẩn bị hàng lâu nhất => cần bố trí thêm nhân sự xử lý đơn hàng & đóng gói.
-3.	Để giảm thiểu chi phí (bao gồm cả chi phí sản xuất và chi phí vận hành như chi phí bán hàng, chi phí kho bãi, chi phí vận chuyển,...) nhằm mục đích giảm giá thành sản phẩm, tăng thêm lợi nhuận cho công ty => Thứ nhất, cần nghiên cứu sản phẩm và thị trường để xem xét có nên cắt giảm những sản phẩm bán kém (44,34,18,42,30) nhằm giảm chi phí sản xuất hay không? Thứ hai, cần thiết lập mạng lưới phân phối và vận chuyển hàng hoá tối ưu. Nếu mạng lưới phân phối - các sale channels hoạt động hiệu quả, sẽ giảm được chi phí bán hàng. Cụ thể là phát triển kênh Online vì kênh Online đang trên đà phát triển tốt, có doanh thu cao thứ 2 chỉ sau In-store nhưng sẽ không mất nhiều chi phí cho mặt bằng. Các team sales Online đang làm việc hiệu quả nhất là 12,13,18 tiếp tục phát huy; team sale 17 chưa tốt cần phải cố gắng cải thiện doanh số. Ngoài ra, Distributor và Wholesale tuy bán sỉ số lượng lớn nhưng chưa hiệu quả lắm, cần đẩy mạnh sales ở 2 kênh này cụ thể là team 27,28 (kênh wholesale) cần phải cải thiện doanh số.
-4.	Để kiểm soát lượng tồn kho sao cho thời gian và chi phí lưu kho thấp nhất mà vẫn đáp ứng kịp thời và nhanh chóng nhu cầu của KH là 1 bài toán khó đòi hỏi công ty phải am hiểu KH của mình, nắm bắt được nhu cầu về số lượng và chủng loại hàng hoá KH cần để stock hàng vừa đủ. Nếu stock kho ít quá thì không đủ hàng giao ngay, đợi đặt hàng thì mất thời gian, mất khách; còn nếu stock kho nhiều quá thì sẽ giảm tốc độ xoay vòng vốn. Bộ phận sales và marketing không những là người mang thu nhập về cho công ty mà còn đóng vai trò quan trọng trong việc đẩy hàng tồn kho, rút ngắn thời gian lưu kho. Trong số các kho, kho WARE-NBV1002 có thời gian lưu kho TB cao nhất và số lượng hàng hoá bán ra lại thấp nhất => cần đẩy mạnh marketing và sales thuộc khu vực kho này. Ngoài ra  cũng cần lấy thêm data về sản phẩm và vị trí kho với khách hàng để tìm nguyên nhân có liên quan địa lý hay không.
+## 1.  
+Để nâng cao chất lượng hàng hoá đáp ứng nhu cầu thị trường => cần nghiên cứu lại chất lượng sản phẩm và nhu cầu của thị trường đối với các sản phẩm bán kém 44,34,18,42,30; đồng thời đẩy mạnh marketing và sales đối với các sản phẩm bán tốt 23,37,8,4,40.
+## 2.	
+Để rút ngắn thời gian từ lúc đặt hàng đến lúc nhận hàng nhằm nâng cao năng lực cạnh tranh của công ty và tăng sự hài lòng của KH => đặt mục tiêu rút ngắn thời gian chuẩn bị hàng hiện tại là 15 ngày xuống còn 13 ngày bằng cách bố trí thêm nhân sự; rút ngắn quy trình/thủ tục xuất kho đồng thời rút ngắn thời gian vận chuyển bằng cách hợp tác với đơn vị vận chuyển chuyên nghiệp. Đặc biệt là kênh bán hàng online có thời gian chuẩn bị hàng lâu nhất => cần bố trí thêm nhân sự xử lý đơn hàng & đóng gói.
+## 3.  
+Để giảm thiểu chi phí (bao gồm cả chi phí sản xuất và chi phí vận hành như chi phí bán hàng, chi phí kho bãi, chi phí vận chuyển,...) nhằm mục đích giảm giá thành sản phẩm, tăng thêm lợi nhuận cho công ty => Thứ nhất, cần nghiên cứu sản phẩm và thị trường để xem xét có nên cắt giảm những sản phẩm bán kém (44,34,18,42,30) nhằm giảm chi phí sản xuất hay không? Thứ hai, cần thiết lập mạng lưới phân phối và vận chuyển hàng hoá tối ưu. Nếu mạng lưới phân phối - các sale channels hoạt động hiệu quả, sẽ giảm được chi phí bán hàng. Cụ thể là phát triển kênh Online vì kênh Online đang trên đà phát triển tốt, có doanh thu cao thứ 2 chỉ sau In-store nhưng sẽ không mất nhiều chi phí cho mặt bằng. Các team sales Online đang làm việc hiệu quả nhất là 12,13,18 tiếp tục phát huy; team sale 17 chưa tốt cần phải cố gắng cải thiện doanh số. Ngoài ra, Distributor và Wholesale tuy bán sỉ số lượng lớn nhưng chưa hiệu quả lắm, cần đẩy mạnh sales ở 2 kênh này cụ thể là team 27,28 (kênh wholesale) cần phải cải thiện doanh số.
+## 4.	
+Để kiểm soát lượng tồn kho sao cho thời gian và chi phí lưu kho thấp nhất mà vẫn đáp ứng kịp thời và nhanh chóng nhu cầu của KH là 1 bài toán khó đòi hỏi công ty phải am hiểu KH của mình, nắm bắt được nhu cầu về số lượng và chủng loại hàng hoá KH cần để stock hàng vừa đủ. Nếu stock kho ít quá thì không đủ hàng giao ngay, đợi đặt hàng thì mất thời gian, mất khách; còn nếu stock kho nhiều quá thì sẽ giảm tốc độ xoay vòng vốn. Bộ phận sales và marketing không những là người mang thu nhập về cho công ty mà còn đóng vai trò quan trọng trong việc đẩy hàng tồn kho, rút ngắn thời gian lưu kho. Trong số các kho, kho WARE-NBV1002 có thời gian lưu kho TB cao nhất và số lượng hàng hoá bán ra lại thấp nhất => cần đẩy mạnh marketing và sales thuộc khu vực kho này. Ngoài ra  cũng cần lấy thêm data về sản phẩm và vị trí kho với khách hàng để tìm nguyên nhân có liên quan địa lý hay không.
  
 
